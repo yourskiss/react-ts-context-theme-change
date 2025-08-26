@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21.201" height="21.201">
+    <defs>
+        <style>
+      .cls-1{fill:#a5a2ac}
+    </style>
+    </defs>
+    <g id="map" transform="translate(-300.25 -837.95)">
+        <path id="near_me" data-name="near me" class="cls-1" d="M20.216 10.637a8.667 8.667 0 0 0-7.652-7.652V1.964a.964.964 0 0 0-1.927 0v1.021a8.667 8.667 0 0 0-7.652 7.652H1.964a.964.964 0 0 0 0 1.927h1.021a8.667 8.667 0 0 0 7.652 7.652v1.021a.964.964 0 1 0 1.927 0v-1.021a8.667 8.667 0 0 0 7.652-7.652h1.021a.964.964 0 0 0 0-1.927h-1.021zM11.6 18.346a6.746 6.746 0 1 1 6.746-6.746 6.923 6.923 0 0 1-2.205 4.992 6.508 6.508 0 0 1-4.541 1.754z" transform="translate(299.25 836.95)" />
+        <circle id="Ellipse_290" data-name="Ellipse 290" class="cls-1" cx="1.714" cy="1.714" r="1.714" transform="translate(309.107 847.15)" />
+    </g>
+</svg>

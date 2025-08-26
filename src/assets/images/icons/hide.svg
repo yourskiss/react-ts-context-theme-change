@@ -1,0 +1,12 @@
+<svg class="fill-current" height="25.323" width="25.089" xmlns="http://www.w3.org/2000/svg">
+    <path d="M1.2 0h23.889v23.889H1.2z" fill="none" data-name="Path 6954" />
+    <path d="M12.185 5.023c4.2 0 8.546 3.069 10.374 6.887a11.845 11.845 0 0 1-10.374 6.843 11.767 11.767 0 0 1-10.321-6.839c1.828-3.822 6.123-6.891 10.321-6.891m0-1.609A13.111 13.111 0 0 0 0 11.914a13.111 13.111 0 0 0 12.185 8.5 13.111 13.111 0 0 0 12.185-8.5 13.111 13.111 0 0 0-12.185-8.5z" fill="#a5a2ac" data-name="Path 6955" />
+    <g fill="none">
+        <g stroke="#a5a2ac" stroke-width="2" data-name="Ellipse 36" transform="translate(1.256)">
+            <circle cx="10.833" cy="12" r="4" stroke="none" />
+            <circle cx="10.833" cy="12" r="3" />
+        </g>
+        <path d="m3.589 22.5 15-17" stroke="#fff" stroke-linecap="round" stroke-width="4" data-name="Line 16" />
+        <path d="m6.589 21.5 15-17" stroke="#a5a2ac" stroke-linecap="round" stroke-width="2" data-name="Line 15" />
+    </g>
+</svg>

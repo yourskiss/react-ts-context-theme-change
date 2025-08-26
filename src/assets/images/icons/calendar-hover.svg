@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18.362" height="20.402" viewBox="0 0 18.362 20.402">
+    <g data-name="Calendar H" transform="translate(-68 -199)">
+        <path d="M19.322 3.04H18.3V2.02a1.02 1.02 0 1 0-2.04 0v1.02H8.1V2.02a1.02 1.02 0 1 0-2.04 0v1.02H5.04a2.031 2.031 0 0 0-2.03 2.04L3 19.362A2.04 2.04 0 0 0 5.04 21.4h14.282a2.046 2.046 0 0 0 2.04-2.04V5.08a2.046 2.046 0 0 0-2.04-2.04zM18.3 19.362H6.06a1.023 1.023 0 0 1-1.02-1.02V8.141h14.282v10.2a1.023 1.023 0 0 1-1.022 1.021z" transform="translate(65 198)" style="fill:#e33955"/>
+        <circle data-name="Ellipse 361" cx="2.2" cy="2.2" r="2.2" transform="translate(78 211)" style="fill:#e33955"/>
+    </g>
+</svg>

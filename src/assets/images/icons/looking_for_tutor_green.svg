@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56.548" height="43.66" viewBox="0 0 56.548 43.66">
+    <defs>
+        <style>
+            .cls-2{fill:#2cb998}
+        </style>
+    </defs>
+    <g id="New" transform="translate(-43.452 -581.096)">
+        <g id="Virtual" transform="translate(-1444.494 202.109)">
+            <path id="Path_7230" fill="#ecfaf7" d="M14.743-6.906c18.887 1.463 27.5 29.995 22.23 37.628S23.45 33.83 14.743 33.83c-3.021 0-8.65 4.021-12.372 2.454-8.711-2.892-12.618-16.508-12.618-22.189-.001-8.695 6.103-22.464 24.99-21.001z" transform="translate(1498.194 386)"/>
+        </g>
+        <g id="Group_2943" transform="translate(55.298 589)">
+            <g id="Group_2943-2" transform="translate(5.34)">
+                <g id="Group_2943-3">
+                    <path id="Path_8143" d="M129.01 0a8.011 8.011 0 1 0 8.011 8.011A8.02 8.02 0 0 0 129.01 0z" class="cls-2" transform="translate(-120.999)"/>
+                </g>
+            </g>
+            <g id="Group_2944" transform="translate(0 15.237)">
+                <g id="Group_2945">
+                    <path id="Path_8144" d="M57.552 307.737A12.857 12.857 0 0 0 46.833 302h-4.965a12.857 12.857 0 0 0-10.719 5.737s-.218.051-.255 1.732.105 4.993.105 4.993H57.7s.187-3.118.149-4.8-.297-1.925-.297-1.925z" class="cls-2" transform="translate(-30.999 -302)"/>
+                </g>
+            </g>
+        </g>
+        <path id="Path_8141" fill="#fff" d="M17 0c9.389 0 17 5.82 17 13s-8.389 16.221-17.777 16.221S0 20.18 0 13 7.611 0 17 0z" opacity="0.121" transform="translate(66 588)"/>
+        <path id="Path_8142" fill="none" stroke="#ecfaf7" stroke-linecap="round" stroke-width="2px" d="M0 .068a3.733 3.733 0 0 1 3.5 1.139 4.394 4.394 0 0 1 .956 3.4" transform="translate(68.612 592.941)"/>
+    </g>
+</svg>

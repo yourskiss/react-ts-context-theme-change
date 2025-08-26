@@ -1,0 +1,57 @@
+/* src/assets/css/theme.css */
+ 
+
+
+body.primary {
+  --bg-color: #fff;
+  --for-color:#ebebeb;
+  --text-color: #000;
+  --accent-color: #f7e709;
+  --border-color:#dad7d7;
+}
+body.secondary {
+  --bg-color: #1b3867;
+  --for-color:#c1d8fd;
+  --text-color: #ffffff;
+  --accent-color: #1b3867;
+  --border-color:#ffffff;
+}
+body.tertiary {
+  --bg-color: #e43955;
+  --for-color:#ffd6dd;
+  --text-color: #ffffff;
+  --accent-color: #e43955;
+  --border-color:#ffffff;
+}
+
+body {
+    background-color: var(--bg-color);
+    transition: all 0.3s ease;
+}
+.t_bg {
+    background-color: var(--bg-color);
+}
+.t_forbg {
+    background-color: var(--for-color);
+    transition: all 0.3s ease;
+}
+
+
+.t_text {
+    color: var(--text-color);
+}
+.t_text_bg {
+    color: var(--bg-color);
+}
+.t_text_forbg {
+    background-color: var(--for-color);
+    transition: all 0.3s ease;
+}
+
+.t_button {
+  background-color: var(--accent-color);
+  color: var(--text-color);
+}
+.t_border {
+    border-color: var(--border-color);
+}

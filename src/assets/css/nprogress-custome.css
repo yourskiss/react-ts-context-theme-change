@@ -1,0 +1,15 @@
+/* nprogress-custom.css */
+
+#nprogress .bar {
+  background: #ff5733 !important; /* 🔴 Change this to any color you like */
+  height: 3px; /* Optional: change thickness */
+}
+
+#nprogress .peg {
+  box-shadow: 0 0 10px #ff5733, 0 0 5px #ff5733;
+}
+
+#nprogress .spinner-icon {
+  border-top-color: #ff5733;
+  border-left-color: #ff5733;
+}
