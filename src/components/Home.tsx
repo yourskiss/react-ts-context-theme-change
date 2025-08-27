@@ -7,8 +7,8 @@ import img3 from "./assets/images/registation/cuate.svg";
 */
 const Home: React.FC = () => {
   return (<>
-  <div className="w-full flex justify-between items-center">
-    <div className="grid grid-flow-row gap-y-1">
+  <div className="w-full flex justify-start items-center md:justify-between flex-col md:flex-row">
+    <div className="grid grid-flow-row gap-y-1 mb-5 md:mb-0">
                 <h2 className="w-full text-center mb-5 text-blue-primary font-roboto font-semibold text-[20px]">
                   Who are you?
                 </h2>
@@ -26,7 +26,7 @@ const Home: React.FC = () => {
                   </Link>
                 </p>
     </div>
-    <div className="bg-gray-secondary rounded-full h-[400px] w-[400px] xl:h-[500px] xl:w-[500px]  p-0 flex justify-center items-center overflow-hidden">
+    <div className="bg-gray-secondary rounded-full h-[300px] w-[300px] sm:h-[400px] sm:w-[400px] xl:h-[500px] xl:w-[500px]  p-0 flex justify-center items-center overflow-hidden">
       <div className="w-full h-auto bg-transparent no-shadow">
        <div className="h-auto pb-7 xl:pb-9">
             <div className="w-full h-full">

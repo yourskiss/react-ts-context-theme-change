@@ -81,7 +81,7 @@ const Login: React.FC = () => {
             <p className="w-full text-center font-roboto text-[16px] font-normal text-secondary-dark-brown">
               Create an account
             </p>
-            <p className="mt-4 w-full flex justify-center items-center gap-5 font-roboto text-[14px] font-normal">
+            <p className="mt-4 w-full flex justify-center items-center gap-4 font-roboto text-[14px] font-normal">
               <LoginButton path="/student-registation" lable="Student" />
               <LoginButton path="/expert-registation" lable="Expert" />
               <LoginButton path="/institution-registation" lable="Institution" />

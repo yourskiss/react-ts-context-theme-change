@@ -12,7 +12,7 @@ const LoginButton : React.FC<PropInfo> =  ({ path, lable }) => {
   };
   return (<>
         <button 
-            className="inline-block text-center rounded-md py-3 px-6  bg-red-secondary hover:bg-red-primary text-red-primary hover:text-white focus:outline-none no-underline shadow-[0px_0px_1px_0px_#00000040]"
+            className="inline-block text-center rounded-md py-3 px-5   bg-red-secondary hover:bg-red-primary text-red-primary hover:text-white focus:outline-none no-underline shadow-[0px_0px_1px_0px_#00000040]"
             onClick={handleGoTo}
         >
                 {lable}

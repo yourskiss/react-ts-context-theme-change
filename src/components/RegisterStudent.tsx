@@ -28,12 +28,12 @@ const RegisterStudent: React.FC = () => {
  }  
 
  const [userData, setUserData] = useState<UserType>({
-    fullname: 'Test Test',
-    email: 'test@in.com',
-    phone: '9876543210',
+    fullname:'', // 'Test Test',
+    email:'', // 'test@in.com',
+    phone:'', // '9876543210',
     dob: '',
-    password: 'Ddlj@123',
-    cp:'Ddlj@123',
+    password:'', // 'Ddlj@123',
+    cp:'', //'Ddlj@123',
     country: 'IN',
     statename:'',
     state: '',
@@ -45,7 +45,7 @@ const RegisterStudent: React.FC = () => {
  
   return (<>
   { stage === 1 ? <GoBackButton /> : <GoBackButton statechange={true} onClickBack={()=> changeStage(1)} /> }
-  <div className=" relative w-5/6 mx-auto">
+  <div className=" relative w-full sm:w-5/6 mx-auto">
      { stage === 1 ? <>
       <StudentInfo userData={userData} setUserData={setUserData} changeStage={()=> changeStage(2)} />
      </> : <>

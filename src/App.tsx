@@ -23,6 +23,7 @@ const Dashboard = lazy(() => import('./components/Dashboard'));
 const Profiles = lazy(() => import('./components/Profile'));
 
 import Logo from "./assets/images/logo.png";
+import HelpSection from './utils/HelpButton';
 
 const appName = import.meta.env.VITE_APP_NAME;
  
@@ -32,7 +33,7 @@ const App: React.FC = () => {
       <Router>
       <RouteChangeTracker />
       <ThemeSelector />
-      <main className="w-full max-w-6xl h-auto min-h-screen   mx-auto px-5 py-10">
+      <main className="w-full max-w-6xl h-auto min-h-screen mx-auto px-3 py-5 sm:px-5 sm:py-10">
         <aside className="w-full mb-8 text-center">  
           <Link to="/" className='font-primary'>
             <img
@@ -45,7 +46,7 @@ const App: React.FC = () => {
           
         </aside> 
       
-        <section className="relative w-full h-auto min-h-[calc(100vh-200px)] py-10 px-10 bg-white shadow-[0px_0px_5px_0px_rgba(0,0,0,0.25)] rounded-xl flex justify-center items-stretch ">
+        <section className="relative w-full h-auto min-h-[calc(100vh-200px)] px-3 py-12 sm:py-10 sm:px-10 bg-white shadow-[0px_0px_5px_0px_rgba(0,0,0,0.25)] rounded-xl flex justify-center items-stretch ">
             <Suspense fallback={<div className='w-full p-10 font-sans text-center font-bold text-text-red-primary text-3xl'>Loading...</div>}>
             
               <Routes>
@@ -63,13 +64,8 @@ const App: React.FC = () => {
                 <Route path="/profile" element={<Profiles />} />
               </Routes>
             </Suspense>
-            <div v-if="isHelp" className="absolute right-5 bottom-4">
-                <Link
-                  className="text-body font-secondary hover:text-red-primary font-normal text-[16px] focus:outline-none no-underline"
-                  to="/help">
-                      Help?
-                </Link>
-            </div>
+
+            <HelpSection />
         </section>
       </main>     
       </Router>

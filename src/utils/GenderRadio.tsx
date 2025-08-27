@@ -13,10 +13,10 @@ const GenderRadio: React.FC<PropInfo> = ({ value, genderChange, ErrorMsg }) => {
   };
 return (<>
 <p>Select Gender</p>
-<div className="flex space-x-6">
+<div className="flex space-x-4">
     <label 
         htmlFor="gender-male" 
-         className={`flex items-center cursor-pointer px-4 py-1 border rounded-[8px] ${ value === 'Male' ? 'bg-[#FFF1F3] text-[#E43955] border-[#E43955]' : 'border-gray-400' }`}
+         className={`flex items-center cursor-pointer px-3 py-1 border rounded-[8px] ${ value === 'Male' ? 'bg-[#FFF1F3] text-[#E43955] border-[#E43955]' : 'border-gray-400' }`}
     >
             <input 
                 id="gender-male"
@@ -31,7 +31,7 @@ return (<>
     </label>
     <label 
         htmlFor="gender-female" 
-        className={`flex items-center cursor-pointer px-4 py-1 border rounded-[8px] ${ value === 'Female' ? 'bg-[#FFF1F3] text-[#E43955] border-[#E43955]' : 'border-gray-400' }`}
+        className={`flex items-center cursor-pointer px-3 py-1 border rounded-[8px] ${ value === 'Female' ? 'bg-[#FFF1F3] text-[#E43955] border-[#E43955]' : 'border-gray-400' }`}
     >
             <input  
                 id="gender-female" 
@@ -46,7 +46,7 @@ return (<>
     </label>
     <label  
         htmlFor="gender-other" 
-        className={`flex items-center cursor-pointer px-4 py-1 border rounded-[8px] ${ value === 'Other' ? 'bg-[#FFF1F3] text-[#E43955] border-[#E43955]' : 'border-gray-400' }`}
+        className={`flex items-center cursor-pointer px-3 py-1 border rounded-[8px] ${ value === 'Other' ? 'bg-[#FFF1F3] text-[#E43955] border-[#E43955]' : 'border-gray-400' }`}
     >
             <input 
                 id="gender-other" 

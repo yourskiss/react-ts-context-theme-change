@@ -16,11 +16,11 @@ const GoBackButton : React.FC<PropInfo> =  ({ statechange, onClickBack }) => {
   };
   return (<>
         <button 
-            className="absolute left-5 top-4 flex justify-center items-center gap-3 cursor-pointer text-black hover:text-red-primary"
+            className="absolute left-3 top-2 sm:left-5 sm:top-4 flex justify-center items-center gap-3 cursor-pointer text-black hover:text-red-primary"
             onClick={ statechange ? onClickBack : handleGoBack }
             >
                 <img src={backbutn} alt="back" className="w-[9px]" />
-                <span className="font-normal text-[18px] font-roboto">
+                <span className="font-normal text-[16px] font-roboto">
                     Back
                 </span>
         </button>

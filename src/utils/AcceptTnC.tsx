@@ -15,7 +15,7 @@ return (<>
 <div className="flex space-x-6">
     <label 
         htmlFor="acceptterms" 
-        className="w-auto flex items-center justify-items-start gap-x-2 cursor-pointer font-light text-sm"
+        className="w-auto flex items-center justify-items-start flex-wrap gap-x-1 cursor-pointer font-light text-sm"
     >
             <input 
                 id="acceptterms"
